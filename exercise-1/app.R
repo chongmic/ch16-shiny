@@ -5,7 +5,7 @@ library(shiny)
 
 # Define a new `ui` variable. This variable should be assigned a `fluidPage()` 
 # layout, which should be passed the following:
-
+ui <- fluidPage()
 
   # A top level header: "First Shiny Website"
   
