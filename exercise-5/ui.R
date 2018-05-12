@@ -38,7 +38,7 @@ shinyUI(navbarPage(
     titlePanel("Population v.s. Vote Power"),
     sidebarLayout(
       sidebarPanel(
-        textInput("search", label = "Find a State", value = "")
+        textInput("search", label = "Search for a State", value = "")
       ),
       mainPanel(
         plotlyOutput("scatter")
